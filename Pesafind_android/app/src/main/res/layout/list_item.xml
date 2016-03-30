@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="95dp"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/img_bankicon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/txt_bankname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_bankicon"
+        android:paddingTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_branches"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_bankname"
+        android:layout_toRightOf="@+id/img_bankicon"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/separator"
+        android:layout_below="@+id/txt_branches"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="70dp"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorPrimary" />
+
+
+</RelativeLayout>

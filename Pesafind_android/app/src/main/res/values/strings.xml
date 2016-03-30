@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">PesaFind</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_maps_key">AIzaSyBIKNW1KIcHSez_e_eYw9BwlxUtQQkzxZQ</string>
+    <string name="menu_settings">Settings</string>
+    <string name="share_map">Share MPesa Map</string>
+    <string name="title_activity_atmlocator">ATMLocator</string>
+    <string name="search">Search</string>
+    <string name="title_activity_mpesa_calculator">MpesaCalculator</string>
+    <string name="title_activity_bank_detail">BankDetail</string>
+    <string name="title_activity_atmcalculator">ATMCalculator</string>
+    <string-array name="all_banks2">
+        <item>Barclays Bank</item>
+        <item>Equity Bank</item>
+        <item>Co-operative Bank</item>
+        <item>National Bank</item>
+        <item>KCB</item>
+        <item>K-REP Bank</item>
+        <item>Family Bank</item>
+    </string-array>
+
+    <string-array name="all_banks">
+        <item>Co operative Bank</item>
+        <item>KCB</item>
+        <item>Equity</item>
+        <item>Family Bank</item>
+        <item>Barclays</item>
+    </string-array>
+</resources>

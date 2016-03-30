@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mpesaloc"
+            android:icon="@mipmap/mpesas"
+            android:title="MPESA Locator" />
+        <item
+            android:id="@+id/nav_atmloc"
+            android:icon="@mipmap/atm"
+            android:title="ATM Locator" />
+        <item
+            android:id="@+id/nav_mpesacalc"
+            android:icon="@mipmap/mpesacalc"
+            android:title="MPesa Calculator" />
+        <item
+            android:id="@+id/nav_atmcalc"
+            android:icon="@mipmap/atmcalc"
+            android:title="ATM Calculator" />
+    </group>
+
+    <item android:title="Application">
+        <menu>
+            <item
+                android:icon="@mipmap/aboutus"
+                android:title="About" />
+            <item
+                android:icon="@mipmap/help"
+                android:title="Help" />
+            <item
+                android:icon="@mipmap/feedback"
+                android:title="Feedback" />
+
+        </menu>
+    </item>
+
+</menu>
